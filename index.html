@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="index.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>Nick Preziosi</title>
+  </head>
+  <body>
+    <section id="nav-container">
+      <div id="hamburger-container">
+        <img id="hamburger" src="images/menu.svg" alt="" />
+      </div>
+      <nav>
+        <ul id="nav-items">
+          <div id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="home">
+      <h1 id="intro" class="fade-in">
+        Hi! My name is Nick Preziosi, and I am a full-stack web developer.
+      </h1>
+      <a href="#about" id="learn-more" class="fade-in">Learn More</a>
+    </section>
+
+    <section id="about">
+      <h1 id="about-title">About</h1>
+      <div id="about-text">
+        <p>
+          I would have never imagined the skills and mindset developed through
+          years of competitive snowboarding translating directly to my journey
+          as a self-taught web developer. It turns out… the relentless
+          persistence, adjustment/refinement of technique, and creativity I
+          developed as a snowboarder have all allowed me to grow and thrive as a
+          developer. In my opinion, there are few better feelings than, after
+          hours of attempts, landing a new trick on a snowboard or finally
+          solving a complex problem or bug while programming. The best part is
+          the learning never stops! <br /><br />PREVIOUS EXPERIENCE WITH DIGITAL
+          MARKETING, DESIGN, PHOTOGRAPHY <br /><br />Development has become a
+          life-long journey for me, and I have become enthralled with creating
+          new products and expressing myself creatively through my work. I am a
+          full stack developer with a passion for JavaScript, React, and
+          development. Outside of web development (and snowboarding), I enjoy
+          photography, surfing, traveling, hiking, and nature.
+        </p>
+      </div>
+
+      <div id="contact-info">
+        <div id="about-img">
+          <img src="images/Professional-Headshot.jpg" alt="" />
+          <img src="images/RedBullBC-Box.jpg" alt="" />
+        </div>
+        <a href="mailto:nickprezcreative@gmail.com">
+          <img
+            class="about-contact-img"
+            src="images/email.svg"
+            alt="Email Logo"
+          />nickprezcreative@gmail.com
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/nicholas-preziosi-4b037214a/"
+        >
+          <img
+            class="about-contact-img"
+            src="images/linkedin.svg"
+            alt="LinkedIn Logo"
+          />Linkedin
+        </a>
+        <a target="_blank" href="https://github.com/nicholaspreziosi">
+          <img
+            class="about-contact-img"
+            src="images/github.svg"
+            alt="GitHub Logo"
+          />GitHub
+        </a>
+        <!-- a target="_blank" href="https://nickprezcreative.com/"
+          >
+            <img
+              class="about-contact-img"
+              src="images/web-box.svg"
+              alt="Website Logo"
+            />www.nickprezcreative.com
+          </a
+        > -->
+      </div>
+
+      <div id="tools">
+        <h1>Tools</h1>
+        <div id="rotating-banner">
+          <i class="devicon-html5-plain-wordmark banner-text"></i>
+          <i class="devicon-css3-plain-wordmark banner-text"></i>
+          <i class="devicon-javascript-plain banner-text"></i>
+          <i class="devicon-bootstrap-plain-wordmark banner-text"></i>
+          <i class="devicon-git-plain banner-text"></i>
+          <i class="devicon-webpack-plain banner-text"></i>
+          <i class="devicon-npm-original-wordmark banner-text"></i>
+          <i class="devicon-jest-plain banner-test"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h1>My Work</h1>
+
+      <div class="grid-container">
+        <div class="portfolio-card">
+          <img
+            src="./images/knightstravails.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <h5 class="card-title">Knights Travails</h5>
+          <p class="card-text">
+            Knights Travails is an app intended to calculate and display the
+            minimum number of moves and route a chess piece would need to get
+            from a start point to an end point on a chess board. This app uses a
+            custom tree/graph like data structure and breadth first search to
+            calculate the knights moves.
+          </p>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://nicholaspreziosi.github.io/odin-knights-travails/"
+              class="btn btn-primary"
+              >View Live App</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/nicholaspreziosi/odin-knights-travails"
+              class="btn btn-primary"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="./images/weatherapp.jpg" class="card-img-top" alt="..." />
+          <h5 class="card-title">Weather App</h5>
+          <p class="card-text">
+            Weather app designed using WeatherAPI to provide detailed weather
+            forecast information, including 12 hour and 3-day forecasts. The app
+            includes a search bar with an autocomplete feature and the ability
+            to toggle between Fahrenheit and Celsius. <br />
+          </p>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://nicholaspreziosi.github.io/odin-knights-travails/"
+              class="btn btn-primary"
+              >View Live App</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/nicholaspreziosi/odin-knights-travails"
+              class="btn btn-primary"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="./images/knightstravails.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <h5 class="card-title">Knights Travails</h5>
+          <p class="card-text">
+            Knights Travails is an app intended to calculate and display the
+            minimum number of moves and route a chess piece would need to get
+            from a start point to an end point on a chess board. This app uses a
+            custom tree/graph like data structure and breadth first search to
+            calculate the knights moves.
+          </p>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://nicholaspreziosi.github.io/odin-knights-travails/"
+              class="btn btn-primary"
+              >View Live App</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/nicholaspreziosi/odin-knights-travails"
+              class="btn btn-primary"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="./images/knightstravails.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <h5 class="card-title">Knights Travails</h5>
+          <p class="card-text">
+            Knights Travails is an app intended to calculate and display the
+            minimum number of moves and route a chess piece would need to get
+            from a start point to an end point on a chess board. This app uses a
+            custom tree/graph like data structure and breadth first search to
+            calculate the knights moves.
+          </p>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://nicholaspreziosi.github.io/odin-knights-travails/"
+              class="btn btn-primary"
+              >View Live App</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/nicholaspreziosi/odin-knights-travails"
+              class="btn btn-primary"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img src="./images/weatherapp.jpg" class="card-img-top" alt="..." />
+          <h5 class="card-title">Weather App</h5>
+          <p class="card-text">
+            Weather app designed using WeatherAPI to provide detailed weather
+            forecast information, including 12 hour and 3-day forecasts. The app
+            includes a search bar with an autocomplete feature and the ability
+            to toggle between Fahrenheit and Celsius. <br />
+          </p>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://nicholaspreziosi.github.io/odin-knights-travails/"
+              class="btn btn-primary"
+              >View Live App</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/nicholaspreziosi/odin-knights-travails"
+              class="btn btn-primary"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="./images/knightstravails.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <h5 class="card-title">Knights Travails</h5>
+          <p class="card-text">
+            Knights Travails is an app intended to calculate and display the
+            minimum number of moves and route a chess piece would need to get
+            from a start point to an end point on a chess board. This app uses a
+            custom tree/graph like data structure and breadth first search to
+            calculate the knights moves.
+          </p>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://nicholaspreziosi.github.io/odin-knights-travails/"
+              class="btn btn-primary"
+              >View Live App</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/nicholaspreziosi/odin-knights-travails"
+              class="btn btn-primary"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email Address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputNumber1" class="form-label"
+            >Phone Number</label
+          >
+          <input type="number" class="form-control" id="exampleInputNumber1" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputText1" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            name="exampleInputText1"
+            id="exampleInputText1"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <div id="full-div"></div>
+  </body>
+</html>
